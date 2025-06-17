@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: https://raphaelpalhares.com.br/sitemap.xml
+
