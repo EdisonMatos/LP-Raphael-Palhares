@@ -1,7 +1,7 @@
 import logo from "../assets/imgs/logo/logo.webp";
 import heroImgPhone from "../assets/imgs/hero/personImg.png";
 import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
-import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
+import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
@@ -128,7 +128,7 @@ const content = {
       title: (
         <h1 className="mb-[16px]">
           Soluções jurídicas sólidas para desafios
-          <span className="desktop1:text-primary"> ambientais e do campo</span>
+          <span className="desktop1:text-white"> ambientais e do campo</span>
         </h1>
       ),
       subtitle:
