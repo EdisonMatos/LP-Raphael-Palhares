@@ -102,7 +102,7 @@ export const infos = {
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
-    "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
+    "Olá! Vim através do site de vocês e gostaria de tirar algumas dúvidas.",
   whatsChatDefaultMessage:
     "Gostaria de falar conosco agora mesmo? Clque abaixo 👇",
   slogan: "",
@@ -119,7 +119,7 @@ const content = {
         img: logo,
         alt: `Logomarca ${infos.name}`,
       },
-      menuItems: ["Início", "Serviços", "Sobre Nós", "Perguntas Frequentes"],
+      menuItems: ["Início", "Atuação", "Sobre", "Perguntas Frequentes"],
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
