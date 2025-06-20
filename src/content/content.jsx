@@ -1,8 +1,8 @@
 import logo from "../assets/imgs/logo/logo.webp";
 import heroImgPhone from "../assets/imgs/hero/personImg.png";
 import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
-import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
-import heroDefaultImg from "../assets/imgs/hero/lawHero.JPG";
+import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
+import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
 import imgFeatures from "../assets/imgs/features/imgServices.webp";
@@ -438,35 +438,34 @@ const content = {
         alt: "Imagem profissional de escritório/advogado(a)",
       },
       miniTag: "QUEM É O DR. RAPHAEL PALHARES",
-      title: "Minha trajetória",
-      subtitle:
-        "Compromisso com a justiça, o campo e o meio ambiente há mais de 13 anos.",
+      title: "Perfil profissional",
+      subtitle: "Uma carreira pautada no compromisso com a justiça.",
       labelInstagram: "Siga-me no Instagram",
       labelFacebook: "Siga-me no Facebook",
       labelLinkedin: "Siga-me no LinkedIn",
       labelX: "Siga-me no X",
       paragraph: (
         <div>
-          Com mais de 13 anos de atuação no Direito Ambiental e Agrário, Dr.
-          Raphael Palhares lidera um escritório moderno e exclusivo, dedicado a
-          oferecer soluções jurídicas eficazes para empresas, produtores rurais
-          e instituições.
+          Com mais de 13 anos de atuação na área do Direito Ambiental, o
+          advogado Raphael Palhares lidera um escritório moderno e exclusivo,
+          dedicado a oferecer soluções jurídicas eficazes para empresas,
+          produtores rurais e instituições.
           <br />
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Com mais de 13 anos de atuação no Direito Ambiental e Agrário, Dr.
-          Raphael Palhares lidera um escritório moderno e exclusivo, dedicado a
-          oferecer soluções jurídicas eficazes para empresas, produtores rurais
-          e instituições.
+          Com mais de 13 anos de atuação na área do Direito Ambiental, o
+          advogado Raphael Palhares lidera um escritório moderno e exclusivo,
+          dedicado a oferecer soluções jurídicas eficazes para empresas,
+          produtores rurais e instituições.
           <br />
           <br />
-          Especialista em Direito Civil, Público e Privado, acumula sólida
-          formação e vasta experiência em processos judiciais e administrativos,
-          com forte atuação na redução de multas ambientais e defesa em autos de
-          infração.
+          Especialista em Direito Civil e Processo Civil pela Universidade
+          Estadual do Piauí, acumula sólida formação e vasta experiência em
+          processos judiciais e administrativos, com forte atuação na redução de
+          multas e passivos ambientais, com defesa em autos de infração.
           <br />
           <br />
           Sua prática alia conhecimento técnico, ética e estratégia,
@@ -479,9 +478,10 @@ const content = {
           litígios e eficiência na gestão de riscos.
           <br />
           <br />
-          Com uma abordagem consultiva, preventiva e litigiosa, o trabalho é
+          Com uma abordagem consultiva, preventiva e litigiosa, seu trabalho é
           pautado na excelência, responsabilidade e respeito às necessidades
-          reais de quem vive do campo e do cuidado com o meio ambiente.
+          reais de quem vive do campo, bem como da extração e transporte de
+          produtos florestais.
           <br />
           <br />
         </p>
@@ -510,9 +510,9 @@ const content = {
       backgroundImg: ctaWhatsappImgBg,
       miniTag: "FALE CONOSCO",
       title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+        "Dúvidas sobre questões ambientais, agrárias ou precisa de orientação jurídica especializada? Entre em contato conosco.",
       subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+        "Teremos o prazer em ouvir você e oferecer soluções personalizadas para sua demanda, com responsabilidade e comprometimento profissional.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
@@ -544,7 +544,7 @@ const content = {
           stepNumber: 4,
           cardTitle: "Ação legal",
           cardDescription:
-            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
+            "Iniciamos e conduzimos as ações judiciais ou medidas de defesa administrativas necessárias, buscando a solução jurídica de que você precisa.",
         },
       },
     },
