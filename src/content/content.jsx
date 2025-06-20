@@ -53,7 +53,7 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Raphael Palhares",
+  name: "Raphael Palhares Advocacia & Consultoria",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
   domain: "raphaelpalhares.com.br", // Sem "www"
