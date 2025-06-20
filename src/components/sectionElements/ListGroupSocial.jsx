@@ -5,7 +5,7 @@ import IconButton from "../interactives/IconButton";
 import Button from "../interactives/Button";
 import { useNavigate } from "react-router-dom";
 
-export default function ListGroupSocial({ colorMode = "default" }) {
+export default function ListGroupSocial({ colorMode = "" }) {
   const navigate = useNavigate();
   const [scrolling, setScrolling] = useState(false);
 
@@ -18,29 +18,22 @@ export default function ListGroupSocial({ colorMode = "default" }) {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Define cores baseadas no modo atual
+  // Muda cor dos links com base no scroll
   const getTextColor = () => {
-    if (colorMode === "light") return "text-black";
-    if (colorMode === "dark") return "text-white";
-    return "text-white"; // default
+    return scrolling ? "text-primary" : "text-white";
   };
 
   const getHoverTextColor = () => {
-    if (colorMode === "light") return "hover:text-black";
-    if (colorMode === "dark") return "hover:text-white";
-    return "hover:text-white";
+    return scrolling ? "hover:text-primary" : "hover:text-white";
   };
 
   const getBorderColor = () => {
-    if (colorMode === "light") return "bg-black";
-    if (colorMode === "dark") return "bg-white";
-    return "bg-white";
+    return scrolling ? "bg-primary" : "bg-white";
   };
 
-  const textShadow =
-    colorMode === "dark" || colorMode === "default"
-      ? "[text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
-      : "";
+  const textShadow = scrolling
+    ? ""
+    : "[text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]";
 
   return (
     <ul
@@ -53,12 +46,11 @@ export default function ListGroupSocial({ colorMode = "default" }) {
             className="relative font-semibold cursor-pointer"
             spy={true}
             smooth={true}
-            
             duration={500}
             offset={-50}
           >
             <span
-              className={`h-[24px] inline-block ${getHoverTextColor()} ${textShadow}`}
+              className={`h-[24px] inline-block transition-colors duration-300 ${getHoverTextColor()} ${textShadow}`}
             >
               {content.texts.navbar.menuItems[index]}
             </span>
