@@ -108,6 +108,14 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                   />
                 )}
               </MotionDivDownToUp>
+              <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[32%]">
+                <div
+                  className="hidden h-[640px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-shadowFeatures/10"
+                  style={{
+                    backgroundImage: `url(${content.texts.features.imgFeatures})`,
+                  }}
+                ></div>
+              </MotionDivDownToUp>
               <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
                 <IconButtonFeatureCard
                   icon={content.texts.features.card2.icon}
@@ -165,7 +173,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                   />
                 )}
               </MotionDivDownToUp>{" "}
-              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
+              {/* <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
                 <IconButtonFeatureCard
                   icon={content.texts.features.card3.icon}
                   title={content.texts.features.card3.title}
@@ -221,8 +229,8 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                     }
                   />
                 )}
-              </MotionDivDownToUp>{" "}
-              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
+              </MotionDivDownToUp>{" "} */}
+              {/* <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
                 <IconButtonFeatureCard
                   icon={content.texts.features.card4.icon}
                   title={content.texts.features.card4.title}
@@ -278,8 +286,8 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                     }
                   />
                 )}
-              </MotionDivDownToUp>{" "}
-              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
+              </MotionDivDownToUp>{" "} */}
+              {/* <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
                 <IconButtonFeatureCard
                   icon={content.texts.features.card5.icon}
                   title={content.texts.features.card5.title}
@@ -335,7 +343,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                     }
                   />
                 )}
-              </MotionDivDownToUp>{" "}
+              </MotionDivDownToUp>{" "} */}
             </div>
           </div>
         </SectionWrapper>
