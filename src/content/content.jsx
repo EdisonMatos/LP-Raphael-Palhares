@@ -2,7 +2,7 @@ import logo from "../assets/imgs/logo/logo.webp";
 import heroImgPhone from "../assets/imgs/hero/personImg.png";
 import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
-import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
+import heroDefaultImg from "../assets/imgs/hero/lawHero.JPG";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
 import imgFeatures from "../assets/imgs/features/imgServices.webp";
@@ -128,7 +128,7 @@ const content = {
       title: (
         <h1 className="mb-[16px]">
           Sua terra e o futuro do planeta
-          <span className="text-primary"> estão em jogo</span>
+          <span className="desktop1:text-primary"> estão em jogo</span>
         </h1>
       ),
       subtitle:
