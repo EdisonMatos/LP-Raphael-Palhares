@@ -5,35 +5,37 @@ import { useNavigate } from "react-router-dom";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
+import Paralaxe from "../../assets/imgs/paralaxe/bgParalaxe.webp";
 
 export default function Cta({ colorMode = "default" }) {
   const navigate = useNavigate();
 
-  // Definir classes de tema
+  const bgImageUrl = Paralaxe;
   const bgClasses = {
-    dark: "bg-bgSectionOpacityDark",
-    light: "bg-bgSectionOpacityLight",
-    default: "squares",
-  };
-  const textClasses = {
     dark: "text-white",
     light: "text-black",
     default: "text-black",
   };
-  const bgClass = bgClasses[colorMode] || bgClasses.default;
-  const textClass = textClasses[colorMode] || textClasses.default;
+  const textClass = bgClasses[colorMode] || bgClasses.default;
 
   return (
-    <>
-      <SectionArea className={`${bgClass}`}>
+    <div
+      className="relative bg-fixed bg-center bg-cover"
+      style={{ backgroundImage: `url(${bgImageUrl})` }}
+    >
+      {/* Camada opaca */}
+      <div className="absolute inset-0 bg-black opacity-50 z-0" />
+
+      {/* Conteúdo */}
+      <SectionArea className="relative z-10">
         <SectionWrapper>
           <SectionHeader
             className={`text-center ${textClass}`}
             miniTitle={content.texts.cta.miniTag}
             sectionHeaderTitle={content.texts.cta.title}
             sectionHeaderSubtitle={content.texts.cta.subtitle}
-            titleColorSet={textClass}
-            subtitleColorSet={textClass}
+            titleColorSet="text-white"
+            subtitleColorSet="text-white"
           />
           <Button
             aria-label={content.texts.hero.ctaButtonAriaLabel}
@@ -43,6 +45,6 @@ export default function Cta({ colorMode = "default" }) {
           />
         </SectionWrapper>
       </SectionArea>
-    </>
+    </div>
   );
 }
