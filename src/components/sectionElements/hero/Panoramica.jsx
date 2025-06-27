@@ -37,7 +37,7 @@ export default function Panoramica({ appDownloadButtons }) {
         <div className="relative z-10 flex w-full bg-white bg-opacity-0 items-left">
           <div className="w-full text-secondary justify-evenly">
             <div className="h-[125px] desktop3:h-[140px]" />
-            <div className="flex flex-col-reverse gap-[40px]  desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[40px] desktop1:pt-[68px] desktop1:pb-[96px]">
+            <div className="flex flex-col-reverse gap-[40px] desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[40px] desktop1:pt-[68px] desktop1:pb-[96px]">
               <div className="flex  flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
                 <MotionDivDownToUp>
                   <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-secondFont text-paragraph4">
@@ -116,7 +116,7 @@ export default function Panoramica({ appDownloadButtons }) {
                   )}
                 </div>
               </div>
-              <div className="flex justify-center w-full tablet1:w-[450px] desktop1:w-[42%] desktop2:w-[42.8%]">
+              <div className="flex justify-center w-full phone3:max-w-[382px] tablet1:w-[450px] desktop1:w-[42%] desktop2:w-[42.8%]">
                 <MotionDivDownToUp className="relative flex justify-end w-full ">
                   <div
                     className=" bg-top rounded-xl w-full h-[350px] tablet1:h-[380px] desktop1:h-[500px] desktop1:w-[500px] bg-cover bg-no-repeat "
@@ -145,8 +145,8 @@ export default function Panoramica({ appDownloadButtons }) {
         }}
       >
         <SectionArea paddingTopAndBottom={false} className="relative">
-          {/* <div className="absolute inset-0 w-[65%] h-full bg-gradient-to-r from-white to-transparent" /> */}
-          <div className="absolute inset-0 bg-gradient-to-b from-lpvHeroGradientTop to-lpvHeroGradientBot opacity-40 z-0"></div>
+          <div className="absolute inset-0 w-[65%] h-full bg-gradient-to-r from-black to-transparent" />
+          {/* <div className="absolute inset-0 bg-gradient-to-b from-lpvHeroGradientTop to-lpvHeroGradientBot opacity-40 z-0"></div> */}
 
           <SectionWrapper>
             <div className="relative z-10 flex w-full items-left pt-[36px] desktop1:py-[90px] desktop2:pb-[90px]">

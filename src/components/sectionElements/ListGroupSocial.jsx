@@ -18,17 +18,17 @@ export default function ListGroupSocial({ colorMode = "" }) {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Muda cor dos links com base no scroll
+  // Muda cor dos links com base no scroll independente da versão
   const getTextColor = () => {
-    return scrolling ? "text-primary" : "text-white";
+    return scrolling ? "text-black" : "text-black";
   };
 
   const getHoverTextColor = () => {
-    return scrolling ? "hover:text-primary" : "hover:text-white";
+    return scrolling ? "hover:text-black" : "hover:text-black";
   };
 
   const getBorderColor = () => {
-    return scrolling ? "bg-primary" : "bg-white";
+    return scrolling ? "bg-black" : "bg-black";
   };
 
   const textShadow = scrolling

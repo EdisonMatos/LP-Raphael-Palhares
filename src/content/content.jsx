@@ -128,7 +128,7 @@ const content = {
       title: (
         <h1 className="mb-[16px]">
           Soluções jurídicas sólidas para desafios
-          <span className="desktop1:text-primary"> ambientais e do campo</span>
+          <span className="desktop1:text-white"> ambientais e do campo</span>
         </h1>
       ),
       subtitle:
