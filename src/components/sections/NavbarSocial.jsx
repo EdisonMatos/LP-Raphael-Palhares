@@ -116,7 +116,7 @@ export default function NavbarSocial({ colorMode }) {
               className={`${
                 scrolling
                   ? "w-[60%] max-w-[60%] tablet2:w-[60%] tablet2:max-w-[60%] desktop1:w-[60%] transition-all duration-1000 "
-                  : "bg-white p-4 rounded-md my-[20px] w-[70%] tablet1:w-[70%] tablet2:w-[70%] desktop1:w-[80%] desktop2:w-[80%] transition-all duration-1000 "
+                  : "desktop1:bg-white desktop1:p-4 rounded-md my-[20px] w-[70%] tablet1:w-[70%] tablet2:w-[70%] desktop1:w-[80%] desktop2:w-[80%] transition-all duration-1000 "
               } tablet3:mb-0`}
             />
           </ScrollLink>
