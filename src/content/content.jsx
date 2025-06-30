@@ -132,7 +132,7 @@ const content = {
         </h1>
       ),
       subtitle:
-        "DescAssessoria especializada em Direito Ambiental e Agrário, com soluções estratégicas para empresas e produtores rurais.",
+        "Assessoria especializada em Direito Ambiental e Agrário, com soluções estratégicas para empresas e produtores rurais.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
