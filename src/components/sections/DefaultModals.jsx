@@ -50,16 +50,19 @@ export default function DefaultModals({ modal = "true", colorMode }) {
 
         <SectionWrapper>
           <div className="flex flex-col items-center w-full justify-evenly tablet1:flex-row">
-            <div className="flex flex-wrap items-start justify-center w-full gap-[40px]">
-              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
+            <div className="flex flex-col desktop1:flex-row items-start justify-center w-full gap-[40px]">
+              <MotionDivDownToUp className="flex flex-col items-center justify-center desktop1:w-[30%] border-[2px] border-solid px-[10px] py-[20px]">
                 <IconButtonFeatureCard
                   icon={content.texts.features.card1.icon}
                   title={content.texts.features.card1.title}
-                  paragraph={content.texts.features.card1.subtitle}
+                  // paragraph={content.texts.features.card1.subtitle}
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                   colorMode={colorMode}
                 />
-                {modal && (
+                <p className="text-center text-paragraph2 opacity-70 font-mainFont desktop1:w-[90%] pb-4">
+                  {content.texts.features.card1.description}
+                </p>
+                {/* {modal && (
                   <Button
                     colorMode={colorMode}
                     size="small"
@@ -106,25 +109,28 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                       </svg>
                     }
                   />
-                )}
+                )} */}
               </MotionDivDownToUp>
-              {/* <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[32%]">
+              <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[32%]">
                 <div
                   className="hidden h-[640px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-shadowFeatures/10"
                   style={{
                     backgroundImage: `url(${content.texts.features.imgFeatures})`,
                   }}
                 ></div>
-              </MotionDivDownToUp> */}
-              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
+              </MotionDivDownToUp>
+              <MotionDivDownToUp className="flex flex-col items-center justify-center desktop1:w-[30%] border-[2px] border-solid px-[10px] py-[20px]">
                 <IconButtonFeatureCard
                   icon={content.texts.features.card2.icon}
                   title={content.texts.features.card2.title}
-                  paragraph={content.texts.features.card2.subtitle}
+                  // paragraph={content.texts.features.card2.subtitle}
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                   colorMode={colorMode}
                 />
-                {modal && (
+                <p className="text-center text-paragraph2 opacity-70 font-mainFont w-[90%] pb-4">
+                  {content.texts.features.card2.description}
+                </p>
+                {/* {modal && (
                   <Button
                     colorMode={colorMode}
                     size="small"
@@ -171,7 +177,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                       </svg>
                     }
                   />
-                )}
+                )} */}
               </MotionDivDownToUp>{" "}
               {/* <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
                 <IconButtonFeatureCard
