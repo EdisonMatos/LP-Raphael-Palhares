@@ -196,26 +196,29 @@ const content = {
         subtitle: "Defesa ambiental e regularização de atividades.",
         description: (
           <div>
-            Atuação completa em Licenciamento Ambiental.
+            Atuamos de forma completa em Licenciamento Ambiental e na defesa de
+            nossos clientes em todas as esferas do Direito Ambiental. Isso
+            inclui processos administrativos decorrentes de autos de infração,
+            embargos e multas aplicadas pelo IBAMA e outras entidades
+            ambientais. Também prestamos defesa qualificada em Ações Civis
+            Públicas destinadas à reparação de danos ambientais e em Ações
+            Penais relacionadas a crimes ambientais.
             <br />
             <br />
-            Defesa em processos administrativos originados de Autos de Infração
-            e multas do IBAMA ou de órgãos estaduais do meio ambiente.
+            - Atuação completa em Licenciamento Ambiental.
             <br />
+            - Defesa em processos administrativos originados de Autos de
+            Infração e multas do IBAMA ou de órgãos estaduais do meio ambiente.
             <br />
-            Defesa em procedimentos administrativos de Embargos de atividade por
-            irregularidades ambientais.
+            - Defesa em procedimentos administrativos de Embargos de atividade
+            por irregularidades ambientais.
             <br />
-            <br />
-            Defesa e atuação em Ações Civis Públicas de
+            - Defesa e atuação em Ações Civis Públicas de
             responsabilização/reparação ambiental.
             <br />
-            <br />
-            Assessoria jurídica em problemas com transporte e rastreabilidade de
-            produtos florestais (DOF/SINAFLOR).
-            <br />
-            <br />
-            Defesa em Ações Penais relativas a crimes ambientais.
+            - Assessoria jurídica em problemas com transporte e rastreabilidade
+            de produtos florestais (DOF/SINAFLOR).
+            <br />- Defesa em Ações Penais relativas a crimes ambientais.
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
@@ -247,35 +250,35 @@ const content = {
         subtitle: "Soluções jurídicas para o campo e a produção.",
         description: (
           <div>
-            Assessoria em processos de regularização fundiária rural
+            Prestamos assessoria jurídica em regularização fundiária rural e em
+            ações possessórias, além de atuarmos em usucapião, retificação de
+            registro e ações reivindicatórias. Elaboramos planejamento
+            sucessório, inclusive com constituição de holdings, bem como
+            conduzimos inventários e partilhas de imóveis rurais com análise
+            tributária e estratégica.
+            <br />
+            <br />
+            - Assessoria em processos de regularização fundiária rural
             (regularização de terras).
             <br />
-            <br />
-            Propositura e defesa em ações possessórias (esbulho, turbação,
+            - Propositura e defesa em ações possessórias (esbulho, turbação,
             reintegração, manutenção).
             <br />
-            <br />
-            Atuação em ações de usucapião, retificação de registro e
+            - Atuação em ações de usucapião, retificação de registro e
             reivindicatórias.
             <br />
-            <br />
-            Atuação em processos administrativos sancionatórios e embargos de
+            - Atuação em processos administrativos sancionatórios e embargos de
             atividade rural.
             <br />
+            - Acompanhamento em processos judiciais ambientais.
             <br />
-            Acompanhamento em processos judiciais ambientais.
-            <br />
-            <br />
-            Planejamento sucessório rural com constituição de holdings
+            - Planejamento sucessório rural com constituição de holdings
             familiares rurais.
             <br />
-            <br />
-            Inventário e partilha de imóveis rurais, com análise fiscal e
+            - Inventário e partilha de imóveis rurais, com análise fiscal e
             estratégica.
-            <br />
-            <br />
-            Consultoria para redução de passivos ambientais e negociação de
-            termos de compromisso com o poder público.
+            <br />- Consultoria para redução de passivos ambientais e negociação
+            de termos de compromisso com o poder público.
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
