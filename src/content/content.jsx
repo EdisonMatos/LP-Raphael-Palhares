@@ -185,9 +185,9 @@ const content = {
     },
     features: {
       miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Direito Ambiental e Agrário com foco em resultados",
+      title: "Soluções jurídicas eficazes",
       subtitle:
-        "Protegendo seu meio ambiente e garantindo sua terra com segurança.",
+        "Com atuação estratégica voltada à produtividade e segurança jurídica.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
@@ -203,22 +203,6 @@ const content = {
             ambientais. Também prestamos defesa qualificada em Ações Civis
             Públicas destinadas à reparação de danos ambientais e em Ações
             Penais relacionadas a crimes ambientais.
-            <br />
-            <br />
-            - Atuação completa em Licenciamento Ambiental.
-            <br />
-            - Defesa em processos administrativos originados de Autos de
-            Infração e multas do IBAMA ou de órgãos estaduais do meio ambiente.
-            <br />
-            - Defesa em procedimentos administrativos de Embargos de atividade
-            por irregularidades ambientais.
-            <br />
-            - Defesa e atuação em Ações Civis Públicas de
-            responsabilização/reparação ambiental.
-            <br />
-            - Assessoria jurídica em problemas com transporte e rastreabilidade
-            de produtos florestais (DOF/SINAFLOR).
-            <br />- Defesa em Ações Penais relativas a crimes ambientais.
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
@@ -256,29 +240,6 @@ const content = {
             sucessório, inclusive com constituição de holdings, bem como
             conduzimos inventários e partilhas de imóveis rurais com análise
             tributária e estratégica.
-            <br />
-            <br />
-            - Assessoria em processos de regularização fundiária rural
-            (regularização de terras).
-            <br />
-            - Propositura e defesa em ações possessórias (esbulho, turbação,
-            reintegração, manutenção).
-            <br />
-            - Atuação em ações de usucapião, retificação de registro e
-            reivindicatórias.
-            <br />
-            - Atuação em processos administrativos sancionatórios e embargos de
-            atividade rural.
-            <br />
-            - Acompanhamento em processos judiciais ambientais.
-            <br />
-            - Planejamento sucessório rural com constituição de holdings
-            familiares rurais.
-            <br />
-            - Inventário e partilha de imóveis rurais, com análise fiscal e
-            estratégica.
-            <br />- Consultoria para redução de passivos ambientais e negociação
-            de termos de compromisso com o poder público.
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
