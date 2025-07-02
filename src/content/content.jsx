@@ -138,7 +138,7 @@ const content = {
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Fale com um especialista",
+      ctaButtonText: "Entrar em contato",
       obsHero: {
         icon: (
           <svg
