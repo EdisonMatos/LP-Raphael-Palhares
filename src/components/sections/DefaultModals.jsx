@@ -50,7 +50,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
 
         <SectionWrapper>
           <div className="flex flex-col items-center w-full justify-evenly tablet1:flex-row">
-            <div className="flex flex-col desktop1:flex-row items-start justify-center w-full gap-[40px]">
+            <div className="flex flex-col desktop1:flex-row items-center justify-center w-full gap-[40px]">
               <MotionDivDownToUp className="flex flex-col items-center justify-center desktop1:w-[30%] border-[2px] border-solid px-[10px] py-[20px]">
                 <IconButtonFeatureCard
                   icon={content.texts.features.card1.icon}
@@ -59,7 +59,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                   colorMode={colorMode}
                 />
-                <p className="text-center text-paragraph2 opacity-70 font-mainFont desktop1:w-[90%] pb-4">
+                <p className="text-center text-paragraph4 opacity-70 font-mainFont desktop1:w-[90%] pb-4">
                   {content.texts.features.card1.description}
                 </p>
                 {/* {modal && (
@@ -127,7 +127,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                   colorMode={colorMode}
                 />
-                <p className="text-center text-paragraph2 opacity-70 font-mainFont w-[90%] pb-4">
+                <p className="text-center text-paragraph4 opacity-70 font-mainFont w-[90%] pb-4">
                   {content.texts.features.card2.description}
                 </p>
                 {/* {modal && (
